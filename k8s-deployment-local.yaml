@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: agentic-rag
+  labels:
+    app: agentic-rag
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: agentic-rag
+  template:
+    metadata:
+      labels:
+        app: agentic-rag
+    spec:
+      containers:
+      - name: agentic-rag
+        image: aikaksh/agentic-rag:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
+        env:
+        - name: OPENAI_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: groq-api-secret
+              key: api-key
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: agentic-rag-service
+spec:
+  selector:
+    app: agentic-rag
+  ports:
+  - port: 8080
+    targetPort: 8080
+  type: NodePort
