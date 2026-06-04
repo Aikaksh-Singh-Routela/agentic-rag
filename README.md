@@ -2,13 +2,10 @@
 
 
 
-\[!\[Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
-
-\[!\[Docker](https://img.shields.io/badge/docker-ready-blue.svg)](https://www.docker.com/)
-
-\[!\[Kubernetes](https://img.shields.io/badge/kubernetes-deployed-blue.svg)](https://kubernetes.io/)
-
-\[!\[Groq](https://img.shields.io/badge/LLM-Groq-orange.svg)](https://groq.com/)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![Docker](https://img.shields.io/badge/docker-ready-blue.svg)](https://www.docker.com/)
+[![Kubernetes](https://img.shields.io/badge/kubernetes-deployed-blue.svg)](https://kubernetes.io/)
+[![Groq](https://img.shields.io/badge/LLM-Groq-orange.svg)](https://groq.com/)
 
 
 
