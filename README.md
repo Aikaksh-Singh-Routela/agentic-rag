@@ -10,10 +10,10 @@
 
 An **intelligent Agentic RAG (Retrieval-Augmented Generation)** system that uses an AI agent to decide when and how to retrieve information. Unlike traditional RAG systems that always search, this agent intelligently chooses between multiple tools based on the user's question.
 
-🔗 Links
-GitHub: agentic-rag
+## 🔗 Links
 
-Docker Hub: aikaksh/agentic-rag
+- **GitHub**: [agentic-rag](https://github.com/Aikaksh-Singh-Routela/agentic-rag)
+- **Docker Hub**: [aikaksh/agentic-rag](https://hub.docker.com/r/aikaksh/agentic-rag)
 
 ### Key Features
 
